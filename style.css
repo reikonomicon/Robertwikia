@@ -1,0 +1,89 @@
+.button {
+	background-color: rgb(29, 29, 29);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 0.5rem; /* spacing so buttons don't overlap */
+}
+
+/* Wrap buttons in a container and use this to center them */
+.button-container {
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
+	flex-wrap: wrap; /* allows multiple rows instead of overlapping */
+}
+
+.videos {
+display: flex;
+justify-content: center;
+}
+
+iframe {
+  padding: 1rem;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: black;
+	color: white;
+}
+
+/* Navbar container */
+.navbar {
+	background-color: #111;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: space-between; /* pushes external links to the right */
+}
+
+/* Left side: normal tabs */
+.navbar-left a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+.navbar-left a:hover {
+	background-color: #575757;
+}
+
+/* Right side: external links as icons */
+.navbar-right a img {
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.navbar-right a:hover img {
+	filter: brightness(1.5); /* simple hover effect */
+}
+
+.button {
+	background-color: #a81818;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.tabcontent {
+	padding-top: 150px;
+	text-align: center;
+}
